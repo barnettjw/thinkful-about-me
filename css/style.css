@@ -1,0 +1,115 @@
+/* header */
+
+.masthead {
+  height: 25em;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+  border-top: solid #0093A3 1em;
+  text-align: center;
+}
+
+.name {
+  margin: 0;
+}
+
+
+/* middle sections */
+
+.introduction,
+.where-im-from,
+.more-about-me,
+.content-footer p,
+.content-footer ul {
+  max-width: 35em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.introduction > h1,
+.where-im-from > h1,
+.more-about-me > h1,
+.introduction > h2,
+.where-im-from > h2,
+.more-about-me > h2 {
+  margin-top: 2em;
+}
+
+
+/* footer */
+
+.content-footer {
+  padding: 3em 0;
+  background: #594F49;
+  text-align: center;
+}
+
+.content-footer ul {
+  margin: auto;
+  padding: 0;
+}
+
+.content-footer li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 1em;
+}
+
+
+/*typography styles */
+
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:visited {
+  color: #00818F;
+}
+
+a:hover,
+a:focus {
+  color: #00DCF5;
+}
+
+.masthead {
+  font-family: Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead,
+.content-footer > p {
+  color: #ccc;
+}
+
+.name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #B1E3E7;
+  letter-spacing: -0.03em;
+  text-shadow: -2px 2px 2px #125F68;
+  text-transform: uppercase;
+}
+
+a,
+.introduction > h2,
+.where-im-from > h2,
+.more-about-me > h2 {
+  color: #0093A3;
+}
+
+.introduction > h2,
+.where-im-from > h2,
+.more-about-me > h2 {
+  font-family: Georgia, serif;
+  font-size: 1.25em;
+  font-weight: bold;
+}
