@@ -1,4 +1,4 @@
-/* header */
+/***** header *****/
 
 .masthead {
   height: 25em;
@@ -11,11 +11,12 @@
 }
 
 .name {
+  display: block;
   margin: 0;
 }
 
 
-/* middle sections */
+/***** middle sections *****/
 
 .introduction,
 .where-im-from,
@@ -37,7 +38,7 @@
 }
 
 
-/* footer */
+/***** footer *****/
 
 .content-footer {
   padding: 3em 0;
@@ -57,7 +58,7 @@
 }
 
 
-/*typography styles */
+/***** typography styles *****/
 
 body {
   color: #222222;
