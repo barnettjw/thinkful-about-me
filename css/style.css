@@ -1,4 +1,4 @@
-/* header */
+/***** header *****/
 
 .masthead {
   height: 25em;
@@ -11,11 +11,12 @@
 }
 
 .name {
+  display: block;
   margin: 0;
 }
 
 
-/* middle sections */
+/***** middle sections *****/
 
 .introduction,
 .where-im-from,
@@ -37,7 +38,7 @@
 }
 
 
-/* footer */
+/***** footer *****/
 
 .content-footer {
   padding: 3em 0;
@@ -57,7 +58,7 @@
 }
 
 
-/*typography styles */
+/***** typography styles *****/
 
 body {
   color: #222222;
@@ -113,3 +114,52 @@ a,
   font-size: 1.25em;
   font-weight: bold;
 }
+
+/***** responsive design styles *****/
+
+@media only screen and (max-width: 850px) {
+    .name {
+       font-size: 1.5em;
+       line-height: 0.9em;
+    }
+
+    .introduction,
+    .where-im-from,
+    .more-about-me {
+      margin: auto 3em;
+    }
+}
+
+@media only screen and (max-device-width: 500px) {
+  .masthead {
+    font-size: 1.75em;
+  }
+}
+
+@media only screen and (max-device-width: 450px) {
+  .masthead {
+    font-size: 1.5em;
+    height: 30em;
+  }
+
+  .introduction > h1,
+  .where-im-from > h1,
+  .more-about-me > h1 {
+    font-size: 1.75em;
+  }
+}
+
+ @media only screen and (max-device-width: 425px) {
+    .introduction > h1,
+    .where-im-from > h1,
+    .more-about-me > h1 {
+     font-size: 1.5em;
+    }
+
+    .introduction > h2,
+    .where-im-from > h2,
+    .more-about-me > h2 {
+     font-size: 1.1em;
+     margin: 1em auto;
+    }
+  }
