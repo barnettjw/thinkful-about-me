@@ -183,7 +183,7 @@ a,
 
   @media only screen and (orientation: landscape) and (max-height: 500px) { 
     .masthead {
-      height: 10em;
+      height: 15em;
       padding-top: 0.5em;
     }
   }
