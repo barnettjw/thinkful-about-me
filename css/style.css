@@ -23,7 +23,7 @@
 .more-about-me,
 .content-footer p,
 .content-footer ul {
-  max-width: 35em;
+  max-width: 50em;
   margin-right: auto;
   margin-left: auto;
 }
@@ -40,8 +40,13 @@
 
 /***** footer *****/
 
+.content-footer .wrapper {
+  display: inline-block;
+}
+
 .content-footer {
-  padding: 3em 0;
+  padding: 1em 0;
+  margin-top: 2em;
   background: #594F49;
   text-align: center;
 }
@@ -86,7 +91,7 @@ a:focus {
 }
 
 .masthead,
-.content-footer > p {
+.content-footer .wrapper > p {
   color: #ccc;
 }
 
@@ -116,6 +121,20 @@ a,
 }
 
 /***** responsive design styles *****/
+@media only screen and (orientation: landscape) and (max-height: 500px) {
+  .masthead {
+    font-size: 1.25em;
+    height: 15em;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+    .introduction,
+    .where-im-from,
+    .more-about-me {
+      margin: auto 2em;
+    }
+}
 
 @media only screen and (max-width: 850px) {
     .name {
@@ -123,14 +142,8 @@ a,
        line-height: 0.9em;
     }
 
-    .introduction,
-    .where-im-from,
-    .more-about-me {
-      margin: auto 2em;
-    }
-
     .content-footer li {
-      font-size: 1.25em;
+      font-size: 1.1em;
     }
 }
 
@@ -143,7 +156,7 @@ a,
 @media only screen and (max-width: 450px) {
   .masthead {
     font-size: 1.5em;
-    height: 30em;
+    /* height: 30em; */
   }
 
   .introduction > h1,
@@ -169,9 +182,9 @@ a,
   }
 
   @media only screen and (max-width: 350px) {
-    .masthead {
-      height: 35em;
-    }
+/*     .masthead {
+  height: 35em;
+} */
 
     .introduction,
     .where-im-from,
