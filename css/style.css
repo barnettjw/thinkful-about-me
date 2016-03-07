@@ -181,6 +181,13 @@ a,
     }
   }
 
+  @media only screen and (orientation: landscape) and (max-height: 500px) { 
+    .masthead {
+      height: 10em;
+      padding-top: 0.5em;
+    }
+  }
+
   @media only screen and (max-width: 200px) {
     .masthead {
       height: 10em;
