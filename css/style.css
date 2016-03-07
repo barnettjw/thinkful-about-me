@@ -125,6 +125,7 @@ a,
   .masthead {
     font-size: 1.25em;
     height: 15em;
+    padding-top: 1em;
   }
 }
 
@@ -149,6 +150,7 @@ a,
 
 @media only screen and (max-width: 500px) {
   .masthead {
+    height: 15em;
     font-size: 1.75em;
   }
 }
@@ -182,10 +184,6 @@ a,
   }
 
   @media only screen and (max-width: 350px) {
-/*     .masthead {
-  height: 35em;
-} */
-
     .introduction,
     .where-im-from,
     .more-about-me {
