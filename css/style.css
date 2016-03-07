@@ -154,6 +154,13 @@ a,
   }
 }
 
+@media only screen and (orientation: landscape) and (max-height: 500px) { 
+    .masthead {
+      height: 15em;
+      padding-top: 0.5em;
+    }
+  }
+
 @media only screen and (max-width: 450px) {
   .masthead {
     font-size: 1.5em;
@@ -181,24 +188,17 @@ a,
     }
   }
 
-  @media only screen and (orientation: landscape) and (max-height: 500px) { 
-    .masthead {
-      height: 15em;
-      padding-top: 0.5em;
-    }
-  }
-
   @media only screen and (max-width: 200px) {
     .masthead {
       height: 10em;
-      font-size: 1.1em;
-      padding-top: 0.5em;
+      font-size: 1em;
+      padding-top: 0em;
     }
 
     .introduction > h1,
     .where-im-from > h1,
     .more-about-me > h1 {
-     font-size: 1.1em;
+     font-size: 1em;
     }
 
     .introduction,
