@@ -183,14 +183,15 @@ a,
 
   @media only screen and (max-width: 200px) {
     .masthead {
-      height: 15em;
-      font-size: 1.25em;
+      height: 10em;
+      font-size: 1.1em;
+      padding-top: 0.5em;
     }
 
     .introduction > h1,
     .where-im-from > h1,
     .more-about-me > h1 {
-     font-size: 1.25em;
+     font-size: 1.1em;
     }
 
     .introduction,
